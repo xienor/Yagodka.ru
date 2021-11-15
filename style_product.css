@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    background-color: red;
+    transform: translate(-50%, 0px);
+    left: 50%;
+    display: flex;
+}
+
+.image {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.about{
+    display: flex;
+    background-color: springgreen;
+    width: 70%;
+    height: 30%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

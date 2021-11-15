@@ -1,0 +1,47 @@
+.main {
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+    .container {
+        width: 750px;
+        height: 450px;
+        background: #502A59;
+        margin: 0 auto;
+}
+        .header{
+            width: 750px;
+            height: 170px;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .logo{
+                width: 183px;
+                height: 166px;
+                background-image: url(img/logo.png);
+            }
+            .name{
+                width: 387px;
+                height: 80px;
+                background-image: url(img/Name.png);
+            }
+    .reg{
+        width: 258px;
+        height: 48px;
+        background-image: url(img/reg.png);
+        margin: 0 auto;
+    }
+    .fields {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .login{
+        width: 92px;
+        height: 50px;
+        background-image: url(img/login.png);
+        margin:  0 auto;
+        margin-top: 20px;
+    }

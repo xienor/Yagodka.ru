@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+}
+    .container {
+        height: 100vh;
+    } 
+        .header {
+            height: 20%;
+            width: 100%;
+            background-color: #502A59;
+        }
+            .logo {
+                height: 166px;
+                width: 570px;
+                display: flex;
+                align-items: center;
+            }
+                .logo_image {
+                    height: 183px;
+                    width: 166px;
+                    background-image: url(img/logo.png);
+                }
+                .logo_name {
+                    width: 387px;
+                    height: 80px;
+                    background-image: url(img/Name.png);
+                }
+
+        .content {
+            width: 100%;
+            height: 80%;
+            display: flex;
+            background-image: url(img/content_filler.jpg);
+        }
+            .main_sidebar {
+                width: 200px;
+                background-color: #502A59;
+                display: flex;
+            }
+                .login {
+                    width: 92px;
+                    height: 50px;
+                    background-image: url(img/login.png);
+                    margin: 0 auto;
+                    margin-top: 20px;
+                }
+
+        .profile {
+            background-color: silver;
+            width: 100%;
+            height: 80%;
+        }

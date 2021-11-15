@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+}
+    .main {
+        height: 100vh;
+    }
+        .header{
+            height: 20vh;
+            background-color: #502A59;
+        }
+            .logo {
+                height: 166px;
+                width: 570px;
+                display: flex;
+                align-items: center;
+            }
+                .logo_image {
+                    height: 183px;
+                    width: 166px;
+                    background-image: url(img/logo.png);
+                }
+                .logo_name {
+                    width: 387px;
+                    height: 80px;
+                    background-image: url(img/Name.png);
+                }
+        .main_container{
+            height: 80%;
+            display: flex;
+        }
+            .main_sidebar {
+                width: 10%;
+                background-color: #502A59;
+            }
+                .exit {
+                    width: 58px;
+                    height: 26px;
+                    position: relative;
+                    margin: 0 auto;
+                    top: 30px;
+                }
+            .content {
+                width: 90%;
+                height: auto;
+                display: flex;
+            }
+                .profile_image_container {
+                    width: 30%;
+                    height: 100%;
+                }
+                    .profile_image {
+                        position: relative;
+                        width: 310px;
+                        height: 310px;
+                        top: 30px;
+                        margin: 0 auto;
+                        background-image: url(img/profile_image.png);
+                    }
+                .about_container {
+                    height: 100%;
+                    width: 70%;
+                }
+                    .about {
+                        position: relative;
+                        width: 774px;
+                        height: 310px;       
+                        background-image: url(img/about.png);
+                        margin: 0 auto;
+                        top: 30px;
+                    }
+                .my_products {
+                    position: relative;
+                    margin-top: 30px;
+                    left: 20px;
+                }
